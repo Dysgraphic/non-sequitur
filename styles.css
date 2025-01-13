@@ -1,17 +1,13 @@
         body {
             display: flex;
-            justify-content: center;
-            align-items: center;
             height: 100vh;
             margin: 0;
             background-color: #222; 
             color: white;
-            font-family: Arial, sans-serif;
+            font-family: ;
         }
 
         title {
-            font-size: 4rem;
-            font-weight: bold;
             text-transform: uppercase;
             background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
             background-size: 400%; 
