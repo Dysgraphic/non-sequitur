@@ -14,7 +14,6 @@ h1 {
     font-weight: bold; 
     background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
     background-size: 400%; 
-    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     animation: rainbow 6s linear infinite; 
 
@@ -22,4 +21,5 @@ h1 {
 @keyframes rainbow {
     0% { background-position: 0%; }
     100% { background-position: 400%; }
+}
 }
