@@ -1,22 +1,29 @@
-        body {
-            display: flex;
-            height: 100vh;
-            margin: 0;
-            background-color: #222; 
-            color: white;
-            font-family: ;
-        }
 
-        title {
-            text-transform: uppercase;
-            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-            background-size: 400%; 
-            -webkit-background-clip: text; 
-            -webkit-text-fill-color: transparent; 
-            animation: rainbow 6s linear infinite; 
-        }
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
 
-        @keyframes rainbow {
-            0% { background-position: 0%; }
-            100% { background-position: 400%; }
-        }
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: #222; 
+    color: white;
+    font-family: 'Google Sans'; 
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem; 
+    font-weight: bold; 
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400%; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    animation: rainbow 6s linear infinite; 
+
+
+@keyframes rainbow {
+    0% { background-position: 0%; }
+    100% { background-position: 400%; }
+}
