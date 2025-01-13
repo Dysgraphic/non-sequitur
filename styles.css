@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
 
 
-body {
-    display: flex;
-    height: 100vh;
-    margin: 0;
-    background-color: #222; 
+p1 {
     color: white;
     font-family: 'Google Sans'; 
 }
