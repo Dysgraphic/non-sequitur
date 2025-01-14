@@ -9,7 +9,7 @@ p1 {
 
 
 h1 {
-    text-transform: uppercase;
+  
     font-size: 4rem; 
     font-weight: bold; 
     background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
