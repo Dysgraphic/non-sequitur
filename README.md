@@ -1,2 +1,2 @@
 # non-sequitur
-portfolio code
+This is code for my portfolio
