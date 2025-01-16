@@ -1,25 +1,24 @@
+@import 'tailwindcss/utilities';
 
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
 
-
-p1 {
-    color: white;
-    font-family: 'Google Sans'; 
-}
-
-
-h1 {
+@layer utilities {
+  .font-google-sans {
+    font-family: 'Google Sans', sans-serif;
+  }
   
-    font-size: 4rem; 
-    font-weight: bold; 
+  .rainbow-text {
+    font-size: 4rem;
+    font-weight: bold;
     background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-    background-size: 400%; 
-    -webkit-text-fill-color: transparent; 
-    animation: rainbow 6s linear infinite; 
-
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 6s linear infinite;
+  }
+}
 
 @keyframes rainbow {
-    0% { background-position: 0%; }
-    100% { background-position: 400%; }
-}
+  0% { background-position: 0%; }
+  100% { background-position: 400%; }
 }
