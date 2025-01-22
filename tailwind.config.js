@@ -5,22 +5,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
+      dropShadow: {
+        glow: [
+          "0 0px 20px rgba(255,255, 255, 0.35)",
+          "0 0px 65px rgba(255, 255,255, 0.2)"
+        ]
+      }
+    }
+      ,fontFamily: {
         sans: ['"Google Sans"', 'sans-serif'], 
       },
-      keyframes: {
-        rainbow: {
-          '0%': { backgroundPosition: '0%' },
-          '100%': { backgroundPosition: '400%' },
-        },
-      },
-      animation: {
-        rainbow: 'rainbow 6s linear infinite',
-      },
-      backgroundSize: {
-        '400%': '400%',
       },
     },
-  },
-  plugins: [],
-};
+  plugins; []
+  
